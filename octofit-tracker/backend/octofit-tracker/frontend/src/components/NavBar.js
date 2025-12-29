@@ -3,10 +3,13 @@ import { NavLink } from 'react-router-dom';
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark octo-navbar">
       <div className="container">
-        <NavLink className="navbar-brand" to="/">OctoFit</NavLink>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <NavLink className="navbar-brand d-flex align-items-center" to="/">
+          <img src="/octofitapp-small.svg" alt="OctoFit" className="octo-logo me-2" />
+          <span className="fw-bold">OctoFit</span>
+        </NavLink>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
