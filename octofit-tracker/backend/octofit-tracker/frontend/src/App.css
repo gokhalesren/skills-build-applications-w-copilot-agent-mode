@@ -129,3 +129,14 @@ a {
 .text-muted-small {
   color: var(--of-muted);
 }
+
+/* Modal tweaks (for React-driven modals) */
+.modal {
+  background: transparent;
+}
+.modal-backdrop.show {
+  opacity: 0.35;
+}
+.modal .modal-content {
+  border-radius: 12px;
+}
