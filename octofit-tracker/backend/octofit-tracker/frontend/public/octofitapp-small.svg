@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="OctoFit">
+  <rect width="64" height="64" rx="12" fill="#0d6efd" />
+  <path d="M21 41c2.5-5 10-9 19-9s16.5 4 19 9h-38z" fill="#fff" opacity="0.06"/>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="28">
+    <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle">OF</text>
+  </g>
+</svg>
